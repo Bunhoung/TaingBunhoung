@@ -36,7 +36,8 @@
             android:layout_alignParentBottom="true"
             >
 
-            <ImageView
+            <ImageButton
+                android:id="@+id/homefragment"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:src="@drawable/ic_baseline_home_24"
@@ -44,7 +45,8 @@
                 android:layout_marginRight="10dp"
                 />
 
-            <ImageView
+            <ImageButton
+                android:id="@+id/categloryfragment"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:src="@drawable/ic_drag_indicator_24"
@@ -52,7 +54,8 @@
                 android:layout_marginRight="10dp"
                 />
 
-            <ImageView
+            <ImageButton
+                android:id="@+id/searchfragment"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:src="@drawable/ic_search_24"
@@ -60,7 +63,8 @@
                 android:layout_marginRight="10dp"
                 />
 
-            <ImageView
+            <ImageButton
+                android:id="@+id/accountfragment"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:src="@drawable/ic_account_24"
@@ -68,7 +72,7 @@
                 android:layout_marginRight="10dp"
                 />
 
-            <ImageView
+            <ImageButton
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:src="@drawable/ic_settings_24"
@@ -77,6 +81,14 @@
                 />
 
         </LinearLayout>
+
+        <fragment
+            android:name="com.example.taingbunhoung.HomeFragment"
+            android:id="@+id/fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            />
 
     </RelativeLayout>
 
