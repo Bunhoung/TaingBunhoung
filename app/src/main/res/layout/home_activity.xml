@@ -73,6 +73,7 @@
                 />
 
             <ImageButton
+                android:id="@+id/settingfragment"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:src="@drawable/ic_settings_24"
@@ -84,7 +85,7 @@
 
         <fragment
             android:name="com.example.taingbunhoung.HomeFragment"
-            android:id="@+id/fragment"
+            android:id="@+id/fragment_place"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
